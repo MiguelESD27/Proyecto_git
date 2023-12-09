@@ -1,0 +1,32 @@
+/* Estilos anteriores... */
+
+#carrusel {
+    display: flex;
+    overflow-x: hidden;
+    margin-bottom: 20px;
+}
+
+.carrusel-item {
+    flex: 0 0 auto;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.carrusel-item.show {
+    opacity: 1;
+}
+
+.carrusel img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.carrusel-text {
+    text-align: left;
+    padding: 20px;
+}
+
+/* Estilos posteriores... */
